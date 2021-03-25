@@ -11,7 +11,7 @@ const Footer = () => {
                         
                         - Design: <a rel="nofollow noopener" href="https://templatemo.com">TemplateMo</a>
                         </p>
-                        <p>Icons used:</p>
+                        <p>Icons used:
                         <div>
                         <a href="https://iconscout.com/icons/mysql" >Mysql Icon by </a><a href="https://iconscout.com/contributors/icon-mafia" >Icon Mafia</a>
                         </div>
@@ -33,6 +33,8 @@ const Footer = () => {
                         <div>
                         <a href="https://iconscout.com/icons/docker" >Docker Icon by </a><a href="https://iconscout.com/contributors/icon-mafia">Icon Mafia on </a><a href="https://iconscout.com">Iconscout</a>
                         </div>
+                        </p>
+                        
                     </div>
                 </div>
                 <div class="col-lg-6 col-xs-12">

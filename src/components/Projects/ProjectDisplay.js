@@ -1,8 +1,8 @@
 import React from 'react'
 
-const ProjectDisplay = ({ title, description, codeLink, appLink, imgLink }) => {
+const ProjectDisplay = ({ title, description, codeLink, appLink, imgLink, aos }) => {
     return (
-        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-aos={aos}>
             <div class="features-item">
                 <div class="features-icon">
                     <img src={imgLink} alt="" />

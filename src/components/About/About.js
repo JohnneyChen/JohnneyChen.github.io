@@ -33,17 +33,17 @@ const About = () => {
                         <div className="right-text-content">
                             <h4>My prefered stack</h4>
                             <div className="row">
-                                <StackDisplay imgLink={mongodbIcon} title="MongoDB" />
-                                <StackDisplay imgLink={expressIcon} title="Express" />
-                                <StackDisplay imgLink={reactIcon} title="React" />
-                                <StackDisplay imgLink={nodeIcon} title="Node.js" />
-                                <StackDisplay imgLink={mysqlIcon} title="MySQL" />
+                                <StackDisplay aos="fade-left" imgLink={mongodbIcon} title="MongoDB" />
+                                <StackDisplay aos="fade-left" imgLink={expressIcon} title="Express" />
+                                <StackDisplay aos="fade-left" imgLink={reactIcon} title="React" />
+                                <StackDisplay aos="fade-left" imgLink={nodeIcon} title="Node.js" />
+                                <StackDisplay aos="fade-left" imgLink={mysqlIcon} title="MySQL" />
 
                                 <h4>Other familiar technologies</h4>
-                                <StackDisplay imgLink={pythonIcon} title="Python" />
-                                <StackDisplay imgLink={djangoIcon} title="Django" />
-                                <StackDisplay imgLink={dockerIcon} title="Docker" />
-                                <StackDisplay imgLink={kubernetesIcon} title="Kubernetes" />
+                                <StackDisplay aos="fade-left" imgLink={pythonIcon} title="Python" />
+                                <StackDisplay aos="fade-left" imgLink={djangoIcon} title="Django" />
+                                <StackDisplay aos="fade-left" imgLink={dockerIcon} title="Docker" />
+                                <StackDisplay aos="fade-left" imgLink={kubernetesIcon} title="Kubernetes" />
 
                             </div>
 
