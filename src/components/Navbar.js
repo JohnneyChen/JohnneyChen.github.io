@@ -7,13 +7,14 @@ const Navbar = () => {
                 <div className="row">
                     <div className="col-12">
                         <nav className="main-nav">
-                            <a href="index.html" className="logo">
+                            <a href="#top" className="logo">
                                 Johnney Chen
                         </a>
                             <ul className="nav">
                                 <li className="scroll-to-section"><a href="#top" className="active">Home</a></li>
                                 <li className="scroll-to-section"><a href="#about">About</a></li>
-                                <li className="scroll-to-section"><a href="#projects">Projects</a></li>
+                                <li className="scroll-to-section"><a href="#features">Projects</a></li>
+                                <li className="scroll-to-section"><a href="#contact-us">Contact me</a></li>
                             </ul>
                             <a className='menu-trigger'>
                                 <span>Menu</span>

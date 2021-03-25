@@ -13,9 +13,9 @@ const Main = () => {
                         <div className="text-content">
                             <h3>Johnney Chen  //  Web Developer</h3>
                             <h5>Backend // React</h5>
-                            <a href="https://github.com/JohnneyChen" className="main-stroked-button"><Github color="white" size={30} className="mr-1" />Git Hub</a>
-                            <a href="https://www.linkedin.com/in/johnney-chen-9552681bb" className="main-stroked-button"><Linkedin color="white" size={30} className="mr-1" />LinkedIn</a>
-                            <a href="mailto:mz2chen@uwaterloo.ca" className="main-stroked-button"><EnvelopeFill color="white" size={30} className="mr-1" />Email</a>
+                            <a href="https://github.com/JohnneyChen" className="main-stroked-button"><Github size={30} className="mr-1" />Git Hub</a>
+                            <a href="https://www.linkedin.com/in/johnney-chen-9552681bb" className="main-stroked-button"><Linkedin size={30} className="mr-1" />LinkedIn</a>
+                            <a href="mailto:mz2chen@uwaterloo.ca" className="main-stroked-button"><EnvelopeFill size={30} className="mr-1" />Email</a>
                         </div>
                     </div>
                 </div>

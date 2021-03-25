@@ -2,12 +2,20 @@ import React from 'react'
 
 import Navbar from './Navbar'
 import Main from './Main'
+import About from './About/About'
+import Projects from './Projects/Projects'
+import Footer from './Footer'
+import Contact from './Contact'
 
 const App = () => {
     return (
         <React.Fragment>
-            <Navbar></Navbar>
-            <Main></Main>
+            <Navbar />
+            <Main />
+            <About />
+            <Projects />
+            <Contact />
+            <Footer />
         </React.Fragment>
     )
 }
