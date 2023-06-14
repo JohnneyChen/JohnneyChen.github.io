@@ -1,0 +1,56 @@
+.control__wrapper {
+  position: absolute;
+  left: 15%;
+  bottom: 25%;
+  height: fit-content;
+  perspective: 300px;
+}
+
+.control__container {
+  flex-direction: column;
+  display: flex;
+  width: 20vh;
+  align-items: center;
+  height: 50vh;
+  justify-content: space-between;
+  padding: 4vh 0;
+  transform: rotateY(20deg);
+}
+
+.control__toggle-button {
+  width: 7vh;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.control__button-overlay {
+  width: 7vh;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.control__main-section {
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+}
+
+.control__button {
+  width: 10vh;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-bottom: 2vh;
+  position: relative;
+}
+
+.control__toggle-button:hover, .control__button:hover {
+  background: rgba(255, 217, 0, 0.201);
+}
