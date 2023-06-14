@@ -2,6 +2,7 @@ import React from 'react'
 import Control from '../control/Control'
 import Home from '../home/Home'
 import "./console.css"
+import Skills from '../skills/Skills'
 
 const Console = () => {
   return (
@@ -9,9 +10,10 @@ const Console = () => {
       <div className='console__container' data-augmented-ui="tl-clip-x tr-clip-x border">
         <div className='console__content'>
           <div className='console__title'>
-            Console
+            {/* Console */}
           </div>
-          <Home/>
+          {/* <Home/> */}
+          <Skills/>
         </div>
         <Control/>
       </div>

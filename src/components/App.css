@@ -128,3 +128,27 @@ html, body {
   --aug-br1: 2vh;
   --aug-tl1: 2vh;
 }
+
+.skills__statistics-container {
+  --aug-border-all: 2px;
+  --aug-border-bg: var(--main-color);
+  --aug-bl1: 7vh;
+  --aug-tr1: 7vh;
+  --aug-tl1: 4vh;
+}
+
+.skills__statistics-label {
+  --aug-border-all: 1px;
+  --aug-border-bg: var(--main-color);
+  --aug-br1: 2vh;
+  --aug-tl1: 1vh;
+}
+
+.skills__synposis-container {
+  --aug-border-all: 2px;
+  --aug-border-bg: var(--main-color);
+  --aug-bl1: 3vh;
+  --aug-tr1: 3vh;
+  --aug-tl1: 7vh;
+  --aug-br1: 7vh;
+}

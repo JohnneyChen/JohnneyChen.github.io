@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import gsap from 'gsap'
-import loader from '../../assets/loader15.svg'
 import "./loader.css"
 
 const Loader = ({ setLoaded }) => {
@@ -78,7 +77,6 @@ const Loader = ({ setLoaded }) => {
   return (
     <div className="loader__background">
       <div className="loader__container">
-        <img className='loader__sphere' src={loader} alt="graphical sphere" />
         <div className='loader__title'>
           L
           <div className='loader__dot'/>

@@ -28,8 +28,11 @@
   color: var(--main-color);
   font-size: 5vh;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 800;
   position: absolute;
   left: 40vh;
+  -webkit-mask-image: var(--stration-mask);
   mask-image: var(--stration-mask);
+  opacity: 0.5;
+  text-shadow: 0 0 1vh var(--main-color);
 }
