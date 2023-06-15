@@ -1,8 +1,6 @@
 .loader__container {
   width: 50vh;
   height: 15vh;
-  min-width: 400px;
-  min-height: 200px;
   position: absolute !important;
   z-index: 5;
   top: 50%;
@@ -69,24 +67,18 @@
   display: flex;
   justify-content: space-between;
   padding: 0 2vh;
-  margin-top: 13vh;
+  margin-top: 5vh;
 }
 
 .loader__bar-start {
+  font-size: 1.5vh;
   color: white;
 }
 
 .loader__bar-end {
+  font-size: 1.5vh;
   color: var(--main-color);
   text-shadow: 0 0 1vh var(--main-color);
-}
-
-.loader__sphere {
-  width: 90%;
-  position: absolute;
-  left: 5%;
-  top: 5%;
-  opacity: 0;
 }
 
 @keyframes pulse {

@@ -93,7 +93,7 @@ html, body {
 }
 
 .console__container {
-  --aug-border-all: 0.5px;
+  --aug-border-all: 1px;
   --aug-border-bg: var(--main-color);
   --aug-tl1: 8vh;
   --aug-tr1: 8vh;

@@ -33,7 +33,7 @@ const Console = () => {
     const height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
     const ratio = width / height;
     
-    if (ratio < 1.35) {
+    if (ratio < 1.35 || width < 550 || height < 350) {
       setShowError(true)
     } else {
       setShowError(false)
