@@ -1,8 +1,8 @@
 .console__background {
   width: 100%;
   height: 100%;
-  background: black;
   position: absolute;
+  background: black;
 }
 
 .console__container {
@@ -10,6 +10,7 @@
   width: 100%;
   height: 90%;
   top: 10%;
+  background: black;
   --aug-border-all: 0.5px;
   --aug-border-bg: var(--main-color);
   --aug-tl1: 8vh;
@@ -30,7 +31,7 @@
   text-transform: uppercase;
   font-weight: 800;
   position: absolute;
-  left: 40vh;
+  left: 25%;
   -webkit-mask-image: var(--stration-mask);
   mask-image: var(--stration-mask);
   opacity: 0.5;

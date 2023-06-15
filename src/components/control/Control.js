@@ -3,9 +3,13 @@ import { AiFillHome } from 'react-icons/ai'
 import { FaFolder } from 'react-icons/fa'
 import { BsFillPersonFill } from 'react-icons/bs'
 import { HiMenu } from 'react-icons/hi'
+import { useAtom } from 'jotai'
+import { tabAtom } from '../console/Console'
 import './control.css'
 
 const Control = () => {
+  const [tab, setTab] = useAtom(tabAtom)
+
   const sections = {
     home: AiFillHome,
     skills: BsFillPersonFill,
@@ -21,7 +25,9 @@ const Control = () => {
               const Icon = sections[section]
 
               return (
-                <div className='control__button' data-augmented-ui="tr-clip bl-clip border">
+                <div className={`control__button ${tab === section ? "control__button--selected" : ""}`} 
+                  data-augmented-ui="tr-clip bl-clip border" 
+                  onClick={() => setTab(section)}>
                   <div className='control__button-overlay'>
                     <Icon color='white' size="3vh"/>
                   </div>

@@ -71,7 +71,7 @@ const Skills = () => {
     <div className='skills__container'>
       <div className='skills__synposis-container'
         data-augmented-ui="tl-clip tr-clip br-clip bl-clip border">
-        <div className='skills__synopsis-title'>
+        <div className='skills__synopsis-title retro-lines'>
           Synopsis
         </div>
         <div className='skills__synposis-section'>
@@ -100,11 +100,21 @@ const Skills = () => {
             Subject has known weaknesses to light mode, [REDACTED], [REDACTED].
           </div>
         </div>
-      </div>
 
+        <div className='skills__synposis-section'>
+          <div className='skills__synposis-title' style={{ color: "red" }}>
+          [REDACTED]
+          </div>
+          <div className='skills__synposis-content glitch' 
+            style={{ lineHeight: "2.25vh", color: "red" }}
+            title="許可が拒否されました。管理者アクセスが必要です">
+            許可が拒否されました。管理者アクセスが必要です
+          </div>
+        </div>
+      </div>
       <div className='skills__statistics-container' 
         data-augmented-ui="tl-clip tr-clip br-clip bl-2-clip-x border">
-        <div className='skills__statistics-title'>
+        <div className='skills__statistics-title retro-lines'>
           Abilities
         </div>
         {

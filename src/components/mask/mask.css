@@ -1,0 +1,41 @@
+.mask__blur {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(4vh);
+}
+
+.mask__top {
+  position: absolute !important;
+  z-index: 4;
+  width: 100%;
+  height: 30vh;
+  top: 0;
+  background: black;
+}
+
+.mask__bottom {
+  position: absolute !important;
+  z-index: 4;
+  width: 100%;
+  height: 30vh;
+  bottom: 0;
+  background: black;
+}
+
+.mask__message {
+  position: absolute;
+  color: red;
+  font-size: 4vw;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  z-index: 5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-weight: 700;
+  text-shadow: 0 0 1.5vw red;
+}

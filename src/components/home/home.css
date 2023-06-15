@@ -18,9 +18,7 @@
 }
 
 .home__socials-container {
-  position: absolute;
   display: flex;
-  bottom: 5vh;
 }
 
 .home__social-button-pulse {

@@ -1,27 +1,19 @@
-* {
-  --neon-pink: #ff12f4;
-  --neon-red: #ff00a0;
-}
-
-.loader__background {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #201547;
-}
-
 .loader__container {
   width: 50vh;
-  height: 25vh;
-  border: 0.5vh solid #ff00a0;
+  height: 15vh;
   min-width: 400px;
   min-height: 200px;
-  border-top: 0.25vh solid #ff12f4;
-  border-bottom: 0.25vh solid #ff12f4;
-  position: relative;
+  position: absolute !important;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s ease-out;
+}
+
+.loader__container--finished {
+  top: 0;
+  opacity: 0;
 }
 
 .loader__title {
@@ -34,6 +26,7 @@
   font-weight: 500;
   color: white;
   position: relative;
+  text-shadow: 0 0 1vh white;
 }
 
 .loader__title-underline {
@@ -41,7 +34,8 @@
   height: 0.5px;
   width: 70%;
   margin-top: 4vh;
-  background-color: var(--neon-pink);
+  background-color: var(--main-color);
+  box-shadow: 0 0 1vh 0.3vh var(--main-color);
 }
 
 .loader__dot {
@@ -67,7 +61,8 @@
   position: absolute;
   width: 35%;
   height: 100%;
-  background: var(--neon-pink);
+  background: var(--main-color);
+  box-shadow: 0 0 1vh 0.3vh var(--main-color);
 }
 
 .loader__bar-description {
@@ -82,7 +77,8 @@
 }
 
 .loader__bar-end {
-  color: var(--neon-pink);
+  color: var(--main-color);
+  text-shadow: 0 0 1vh var(--main-color);
 }
 
 .loader__sphere {

@@ -71,14 +71,12 @@
 }
 
 .skills__synopsis-title {
-  margin-top: 1.5vh;
+  padding: 2vh;
   color: var(--main-color);
-  margin-left: 8vh;
+  margin-left: 6vh;
   font-size: 3vh;
   font-weight: 500;
   text-shadow: 0 0 2vh var(--main-color);
-  -webkit-mask-image: var(--stration-mask);
-  mask-image: var(--stration-mask);
 }
 
 .skills__synposis-section {

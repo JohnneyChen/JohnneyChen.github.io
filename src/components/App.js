@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import Nav from './nav/Nav'
 import Loader from './loader/Loader'
 import Console from './console/Console'
 import "augmented-ui/augmented-ui.min.css"

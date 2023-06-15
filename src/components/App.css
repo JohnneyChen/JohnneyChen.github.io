@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Orbitron', sans-serif;
-  --main-color: gold;
+  --main-color: #ae00b9;
   --stration-mask: repeating-linear-gradient(black, black 2px, transparent 3px);
 }
 
@@ -76,26 +76,19 @@ html, body {
 }
 
 .retro-lines {
-  mask-image: var(--stration-mask);
-  mask-position: center 0rem;
-  animation: retro-future-tv-lines linear infinite;
-}
-
-.retro-lines-on-hover:hover {
   mask-image: repeating-linear-gradient(black, black 0.5rem, rgba(0, 0, 0, 0.5) 0.75rem);
-  mask-position: center 0rem;
-  animation-duration: 500ms;
-  animation: retro-future-tv-lines linear infinite;
+  mask-position: center 0;
+  animation: retro 1s linear infinite;
 }
 
-@keyframes retro-future-tv-lines {
+@keyframes retro {
   0% {
-    -webkit-mask-position: center 0rem;
-    mask-position: center 0rem;
+    -webkit-mask-position: center 0;
+    mask-position: center 0;
   }
   100% {
-    -webkit-mask-position: center -1.5rem;
-    mask-position: center -1.5rem;
+    -webkit-mask-position: center -1.5vh;
+    mask-position: center -1.5vh;
   }
 }
 
@@ -151,4 +144,56 @@ html, body {
   --aug-tr1: 3vh;
   --aug-tl1: 7vh;
   --aug-br1: 7vh;
+}
+
+.projects__project-container {
+  --aug-border-all: 2px;
+  --aug-border-bg: var(--main-color);
+  --aug-inlay-bg: var(--main-color);
+  --aug-inlay-opacity: 0.15;
+  --aug-bl1: 3vh;
+  --aug-tr1: 3vh;
+  --aug-tl1: 3vh;
+  --aug-br1: 3vh;
+  --aug-t: 3vh;
+}
+
+.projects__project-stack-display {
+  --aug-border-all: 1px;
+  --aug-border-bg: var(--main-color);
+  --aug-br1: 0.5vh;
+  --aug-tl1: 1vh;
+}
+
+.projects__project-code {
+  --aug-border-all: 2px;
+  --aug-border-bg: red;
+  --aug-br1: 1vh;
+  --aug-tl1: 1vh;
+  --aug-tr1: 0.5vh;
+  --aug-bl1: 0.5vh;
+}
+
+.mask__top {
+  --aug-border-all: 2px;
+  --aug-border-bg: var(--main-color);
+  --aug-b: 5vh;
+}
+
+.mask__bottom {
+  --aug-border-all: 2px;
+  --aug-border-bg: var(--main-color);
+  --aug-t: 5vh;
+}
+
+.loader__container {
+  --aug-border-all: 5px;
+  --aug-border-bg: var(--main-color);
+  --aug-br1: 3vh;
+  --aug-tl1: 3vh;
+  --aug-tr1: 1.5vh;
+  --aug-tr1-height: 1vh;
+  --aug-bl1: 5vh;
+  --aug-bl1-height: 1vh;
+  --aug-bl1-width: 2.5vh;
 }

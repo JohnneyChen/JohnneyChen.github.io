@@ -51,6 +51,10 @@
   position: relative;
 }
 
+.control__button--selected {
+  background: #ad00b936;
+}
+
 .control__toggle-button:hover, .control__button:hover {
-  background: rgba(255, 217, 0, 0.201);
+  background: #ad00b936;
 }
