@@ -37,3 +37,9 @@
   opacity: 0.5;
   text-shadow: 0 0 1vh var(--main-color);
 }
+
+@media (max-width: 480px) {
+  .console__title {
+    font-size: 25px;
+  }
+}

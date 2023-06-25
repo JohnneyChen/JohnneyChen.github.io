@@ -54,3 +54,14 @@
   top: 0;
   height: 100%;
 }
+
+@media (max-width: 480px) {
+  .home__command-text {
+    font-size: 7px;
+  }
+
+  .home__auto-typed-text {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+}

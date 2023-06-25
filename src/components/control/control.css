@@ -58,3 +58,24 @@
 .control__toggle-button:hover, .control__button:hover {
   background: #ad00b936;
 }
+
+@media (max-width: 480px) {
+  .control__wrapper {
+    left: 10px;
+  }
+
+  .control__container {
+    width: 90px;
+  }
+
+  .control__toggle-button {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+  }
+
+  .control__button {
+    width: 70px;
+    height: 40px;
+  }
+}

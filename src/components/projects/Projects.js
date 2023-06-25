@@ -44,7 +44,8 @@ const ProjectDisplay = ({ project, current, index }) => {
   return (
     <div className={getClass()}
       style={{ display: Math.abs(current - index) <= 1 ? undefined : "none"}} 
-      data-augmented-ui="tl-clip t-scoop-x tr-2-clip-y br-2-clip-x b-rect-x bl-clip both">
+      data-augmented-ui="tl-clip t-scoop-x tr-2-clip-y br-2-clip-x b-rect-x bl-clip both"
+      >
       <div className='projects__project-wrapper'>
         <div className='projects__project-label'>
           {project.title}
@@ -66,7 +67,8 @@ const ProjectDisplay = ({ project, current, index }) => {
                 return (
                   <div key={`stack-display-${project.title}-${technology}`}
                     className='projects__project-stack-display' 
-                    data-augmented-ui="tl-clip br-2-clip-x border">
+                    data-augmented-ui="tl-clip br-2-clip-x border"
+                    >
                     {technology}
                   </div>
                 )
@@ -77,7 +79,8 @@ const ProjectDisplay = ({ project, current, index }) => {
         {
           project.code === "ACCESS_DENIED" ? 
           <a className='projects__project-code'
-            data-augmented-ui="tl-clip tr-clip br-clip-x bl-clip border">
+            data-augmented-ui="tl-clip tr-clip br-clip-x bl-clip border"
+            >
             <div className='glitch' title="[ACCESS ERROR]">
               [ACCESS ERROR]
             </div>
@@ -85,7 +88,8 @@ const ProjectDisplay = ({ project, current, index }) => {
             <a href={project.code} 
             target="_blank"
             className='projects__project-code'
-            data-augmented-ui="tl-clip tr-clip br-clip-x bl-clip border">
+            data-augmented-ui="tl-clip tr-clip br-clip-x bl-clip border"
+            >
             <div className='glitch' title="Inspect source code">
               Inspect source code
             </div>

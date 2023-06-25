@@ -15,7 +15,7 @@ const Loader = ({ setLoaded }) => {
         }
         return prev + 1
       })
-    }, 30)
+    }, 10)
 
     return () => clearInterval(timer)
   }, [])

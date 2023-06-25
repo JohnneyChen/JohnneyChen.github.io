@@ -25,7 +25,9 @@ const Control = () => {
               const Icon = sections[section]
 
               return (
-                <div className={`control__button ${tab === section ? "control__button--selected" : ""}`} 
+                <div
+                  key={`control__button-${section}`} 
+                  className={`control__button ${tab === section ? "control__button--selected" : ""}`} 
                   data-augmented-ui="tr-clip bl-clip border" 
                   onClick={() => setTab(section)}>
                   <div className='control__button-overlay'>

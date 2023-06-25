@@ -188,3 +188,68 @@
 		opacity: 1;
 	}
 }
+
+@media (max-width: 480px) {
+  .projects__project-container--left {
+    display: none;
+  }
+  
+  .projects__project-container--right {
+    display: none;
+  }
+
+  .projects__project-container {
+    left: 0;
+    width: 200px;
+  }
+
+  .projects__carousel-control {
+    left: 30px;
+  }
+
+  .projects__project-label {
+    margin-top: 4vh;
+    margin-left: 1.5vh;
+    font-size: 15px;
+  }
+
+  .projects__project-status {
+    color: red;
+    font-size: 10px;
+    margin-left: 1.5vh;
+  }
+  
+  .projects__project-status-led {
+    width: 7px;
+    height: 7px;
+  }
+  
+  .projects__project-description {
+    margin-left: 1.5vh;
+    margin-top: 1.5vh;
+    font-size: 10px;
+    margin-right: 2vh;
+  }
+  
+  .projects__project-stack-section {
+    margin-left: 1.5vh;
+    margin-top: 2vh;
+  }
+  
+  .projects__project-stack-label {
+    font-size: 12px;
+  }
+  
+  .projects__project-stack-list {
+    margin-right: 2vh;
+  }
+  
+  .projects__project-stack-display {
+    font-size: 15px;
+  }
+  
+  .projects__project-code {
+    font-size: 12px;
+    margin-left: 1.5vh;
+  }
+}

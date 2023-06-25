@@ -97,3 +97,26 @@
   font-size: 1.5vh;
   display: flex;
 }
+
+@media (max-width: 480px) {
+  .skills__container {
+    perspective: 450px;
+  }
+
+  .skills__synposis-container {
+    display: none;
+  }
+
+  .skills__statistics-container {
+    width: 250px;
+  }
+
+  .skills__statistics-display {
+    margin-left: 0;
+    width: 220px;
+  }
+
+  .skills__statistics-block {
+    width: 10px;
+  }
+}

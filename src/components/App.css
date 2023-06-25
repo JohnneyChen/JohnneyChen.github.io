@@ -197,3 +197,18 @@ html, body {
   --aug-bl1-height: 1vh;
   --aug-bl1-width: 2.5vh;
 }
+
+@media (max-width: 480px) {
+  .skills__statistics-container {
+    --aug-border-all: 2px;
+    --aug-border-bg: var(--main-color);
+    --aug-bl1: 30px;
+    --aug-tr1: 30px;
+    --aug-tl1: 15px;
+  }  
+
+  .console__container {
+    --aug-tl1: 40px;
+    --aug-tr1: 40px;
+  }
+}

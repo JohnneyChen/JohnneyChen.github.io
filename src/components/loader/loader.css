@@ -90,3 +90,35 @@
 		opacity: 1;
 	}
 }
+
+@media (max-width: 480px) {
+  .loader__container {
+    width: 300px;
+  }
+
+  .loader__title {
+    font-size: 15px;
+  }
+
+  .loader__dot {
+    width: 12px;
+    height: 12px;
+  }
+
+  .loader__title-underline {
+    box-shadow: 0 0 5px 1px var(--main-color);
+  }
+
+  .loader__bar {
+    height: 5px;
+  }
+
+  .loader__bar-start {
+    font-size: 12px;
+  }
+  
+  .loader__bar-end {
+    font-size: 12px;
+    text-shadow: 0 0 1vh var(--main-color);
+  }
+}
